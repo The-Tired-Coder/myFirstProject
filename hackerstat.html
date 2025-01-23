@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hackerstat</title>
+    <style>
+        body{
+            background-color: black;
+            color: chartreuse;
+            
+        }
+        p.solid {border-style: solid;}
+        .loader {
+  border: 20px solid #322f2f;
+  border-radius: 50%;
+  border-top: 20px solid chartreuse;
+  width: 70px;
+  height: 70px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+button{
+    width: 60px;
+    height: 60px;
+}
+    </style>
+</head>
+<body>
+    <header>Hacker_stat</header>
+    <div class="loader"></div>
+    <blockquote>
+        <h3>Complaint</h3>
+        <ol>
+            <li>more video</li>
+            <li>faster load on Twenty.html</li>
+        </ol>
+        <small>updated now</small>
+    </blockquote>
+    <button>refresh</button>
+    <p class="solid">installing software patch...</p>
+</body>
+</html>
