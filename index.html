@@ -15,26 +15,59 @@
             p{
              text-align: center;   
             }
-            div{
-                text-align: center;
-            }
             a{
                 text-align: center;
             }
+            .dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
          </style>
         <link rel="icon" type="image/x-icon" href="https://icons.iconarchive.com/icons/iconoir-team/iconoir/256/gamepad-icon.png"> 
     </head>
     <body>
         <header><p><a href="testtry.html"><img src="https://th.bing.com/th/id/OIG1.sMQsR4r.Hk.Qn5RTIj7Y?w=1024&h=1024&rs=1&pid=ImgDetMain" alt="a calm music themed logo picture" height="400" width="400"></a></p></header>
         <p style="color:rgb(0, 0, 0);">Welcome to <em>TUNE HUB</em>! Whether you're a musician, a musi<a href="hidden.html">c</a> enthusiast, or just someone who enjoys good tunes, you'll find something here to love.</p>
-        <div>
-        <a href="lofi.html">Lofi</a>
-        <a href="twenty.html">Twenty One Pilots</a>
-        <a href="top.html">Gaming Music</a>
-        <a href="synthwave.html">Synth</a>
-        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+              <a href="lofi.html">Lofi</a>
+              <a href="top.html">Gaming Music</a>
+              <a href="twenty.html">Twenty One Pilots</a>
+              <a href="synthwave.html">Synth</a>
+            </div>
+          </div>
         <h4>new videos every week</h4>
-        <div>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/gtmzPUmq7XU" title="4 Hours of Ambient Study Music to Concentrate - Deep Focus Music for Studying" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
                <footer><h4>We appreciate your support and hope you enjoy the music and content we share. Stay tuned for more updates and feel free to reach out with any feedback or suggestions. Your presence makes our community stronger!</h4>
